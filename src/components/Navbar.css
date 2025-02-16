@@ -1,0 +1,11 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    cursor: pointer;
+}
