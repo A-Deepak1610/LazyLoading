@@ -1,8 +1,11 @@
-# React + Vite
+# Lazy Loading in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to implement lazy loading in a React application using `React.lazy()` and `Suspense`.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Uses React's built-in `React.lazy()` to load components dynamically.
+- Implements `Suspense` with a fallback UI to display a loading spinner while the component is being loaded.
+
+
+
